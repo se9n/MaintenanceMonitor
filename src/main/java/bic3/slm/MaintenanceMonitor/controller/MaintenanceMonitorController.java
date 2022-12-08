@@ -34,12 +34,10 @@ public class MaintenanceMonitorController {
 
 
     @PutMapping("/api/message/update")
-    public String updateStatus(){
-        System.out.println("Set message manually:");
-        Scanner entry = new Scanner(System.in);
-        message = entry.nextLine();
-        return message;
+    public String updateStatus(@RequestParam(value = "/entry") String mentry){
 
+        message = mentry;
+        return message;
     }
 
 }
