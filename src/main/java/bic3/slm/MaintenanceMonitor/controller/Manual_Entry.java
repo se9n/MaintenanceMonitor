@@ -1,5 +1,7 @@
 package bic3.slm.MaintenanceMonitor.controller;
 
+
+/*
 public class Manual_Entry {
 
     String entry;
@@ -14,3 +16,4 @@ public class Manual_Entry {
         return entry;
     }
 }
+*/
