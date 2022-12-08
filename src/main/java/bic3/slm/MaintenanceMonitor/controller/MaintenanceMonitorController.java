@@ -2,8 +2,6 @@ package bic3.slm.MaintenanceMonitor.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Scanner;
-
 
 @RestController
 public class MaintenanceMonitorController {
@@ -34,10 +32,13 @@ public class MaintenanceMonitorController {
 
 
     @PutMapping("/api/message/update")
-    public String updateStatus(@RequestParam(value = "/entry") String mentry){
+    public String updateStatus(@RequestBody String entry){
 
-        message = mentry;
-        return message;
+            message = entry;
+
+            return "manually set message: " + message;
     }
+
+
 
 }
