@@ -13,16 +13,10 @@ The technology used to create our maintenance monitor was the Java SDK 17 within
 (1)	Getting Started
 To run the application, you need a functional JVM environment as well as a RESTful client. 
 
-
-
 (2)	Functionality 
 The program maps a default message to the host server by the use of a Spring Controller via the GetMapping request and stores it centrally. The message can be accessed by a REST client at any time while the application interface is running. The function returns the default message itself.
-
 The user can provide input to store any message of his choosing by accessing the “m” key and overwriting its value. The function stores the new message on the server and returns an affirmative String. A PostMapping request is used to set the message.
-
-
 The message can be restored to default using the reset function. The function accesses and stores the default message on the mapped server and returns an affirmative String. 
-
 
 (3)	Java package
 The Java package for this project includes a developer created .java pack with the classes MaintenanceMonitorApplication MaintenanceMonitorController and their defined attributes. The JUnit configuration includes all unit tests. 
@@ -32,8 +26,6 @@ The following team members were involved with the project:
 i.	Caraet Sean
 ii.	Nagel Anna
 The team used Github as its VCS. A Basic Kanban board was used to track and record progress and assign and reassign issues. The code was migrated with the use of Intellij IDEA Git SCM and SourceTree.   
-
-
 
 
 (5)	License
