@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MaintenanceMonitorController {
 
-    /*
-    *@param message Nachricht, die anzuzeigen ist, default ist "everything works as expected"
+    /**
+    *String message ist die Nachricht, die anzuzeigen ist. Default ist "everything works as expected"
     */
     String message = "everything works as expected";
 
