@@ -6,10 +6,10 @@
 
 Our customer is a small hydro-power electricity supplier near Vienna. Electricity around the clock with a very high service level agreement. Service times are crucial to the operation. The company installed monitors that should show the current service message.
 "Everything operates as expected" is the default message. But a service operator can set the message manually to something else (e.g., "Service checks: No power until 5:00 pm"). A service operator can also reset the message to its default message.
-To best accommodate our customers’ needs we use a REST-based application in Java (via Spring Boot API integration). The service manages the message system stored on our server. It has the following features:<br>
+To best accommodate our customers’ needs we use a REST-based application in Java (via Spring Boot API integration). The service manages the message system stored on our server. It has the following features:<br><br>
 •	delivers the message<br>
 •	can be set manually to any specific message (not limited to alphanumerical characters)<br>
-•	resets the message to the default of our client´s choice<br>
+•	resets the message to the default of our client´s choice<br><br>
 The technology used to create our maintenance monitor was the Java SDK 17 within the Spring framework and the use of the Spring Boot tool as well as the Postman API development tool which served as the REST interface client. Before its release it was tested with the JUnit 5 framework.
 
 ### (1)	Getting Started
