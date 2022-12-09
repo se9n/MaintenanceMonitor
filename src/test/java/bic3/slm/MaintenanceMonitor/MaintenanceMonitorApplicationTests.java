@@ -31,7 +31,7 @@ class MaintenanceMonitorApplicationTests {
 		String randString = new String(arrlength);
 
 
-		generatortest.updateStatus(randString);
+		generatortest.changeStatus(randString);
 		Assertions.assertEquals(randString, generatortest.currentStatus());
 
 

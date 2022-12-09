@@ -1,7 +1,9 @@
 package bic3.slm.MaintenanceMonitor.controller;
 
-import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MaintenanceMonitorController {
@@ -9,7 +11,6 @@ public class MaintenanceMonitorController {
     String message = "everything works as expected";
 
     @GetMapping("/api/message/")
-
     public String currentStatus() {
         return message;
     }
@@ -19,7 +20,7 @@ public class MaintenanceMonitorController {
 
         message = changeMessage;
 
-        return message + "ok";
+        return "ok";
     }
 
     @GetMapping("/api/message/reset")
@@ -29,16 +30,4 @@ public class MaintenanceMonitorController {
 
         return "ok";
     }
-
-
-    @PutMapping("/api/message/update")
-    public String updateStatus(@RequestBody String entry){
-
-            message = entry;
-
-            return "manually set message: " + message;
-    }
-
-
-
 }
