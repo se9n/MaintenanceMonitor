@@ -22,9 +22,8 @@ The message can be restored to default using the reset function. The function ac
 The Java package for this project includes a developer created .java pack with the classes MaintenanceMonitorApplication MaintenanceMonitorController and their defined attributes. The JUnit configuration includes all unit tests. 
 
 ### (4)	Contributors and work processes
-The following team members were involved with the project:
-
-i.	Caraet Sean
+The following team members were involved with the project:<br>
+i.	Caraet Sean<br>
 ii.	Nagel Anna
 
 The team used Github as its VCS. A Basic Kanban board was used to track and record progress and assign and reassign issues. The code was migrated with the use of Intellij IDEA Git SCM and SourceTree.   
