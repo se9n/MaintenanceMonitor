@@ -20,7 +20,10 @@ The program maps a default message to the host server by the use of a Spring Con
 ![Alt](/attachments/1getmapper.png)
 
 The user can provide input to store any message of his choosing by accessing the “m” key and overwriting its value. The function stores the new message on the server and returns an affirmative String. A PostMapping request is used to set the message.
+![Alt](/attachments/2postmapping.png)
+
 The message can be restored to default using the reset function. The function accesses and stores the default message on the mapped server and returns an affirmative String. 
+![Alt](/attachments/3reset.png)
 
 ### (3)	Java package
 The Java package for this project includes a developer created .java pack with the classes MaintenanceMonitorApplication MaintenanceMonitorController and their defined attributes. The JUnit 5 configuration includes all unit tests. 
@@ -30,7 +33,9 @@ The following team members were involved with the project:<br>
 i.	Caraet Sean<br>
 ii.	Nagel Anna
 
-The team used Github as its VCS. A Basic Kanban board was used to track and record progress and assign and reassign issues. The code was migrated with the use of Intellij IDEA Git SCM and SourceTree.   
+The team used Github as its VCS. A Basic Kanban board was used to track and record progress and assign and reassign issues. The code was migrated with the use of Intellij IDEA Git SCM and SourceTree. 
+
+![Alt](/attachments/4kanban.png)
 
 
 ### (5)	License
