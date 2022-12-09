@@ -3,7 +3,7 @@
 ### Project Description
 
 Our customer is a small hydro-power electricity supplier near Vienna. Electricity around the clock with a very high service level agreement. Service times are crucial to the operation. The company installed monitors that should show the current service message.
-"Everything operates as expected" is the default message. But a service operaator can set the message manually to something else (e.g., "Service checks: No power until 5:00 pm"). A service operator can also reset the message to its default message.
+"Everything operates as expected" is the default message. But a service operator can set the message manually to something else (e.g., "Service checks: No power until 5:00 pm"). A service operator can also reset the message to its default message.
 To best accommodate our customers’ needs we use a REST-based application in Java (via Spring Boot API integration). The service manages the message system stored on our server. It has the following features:
 •	delivers the message
 •	can be set manually to any specific message (not limited to alphanumerical characters)
@@ -19,7 +19,7 @@ The user can provide input to store any message of his choosing by accessing the
 The message can be restored to default using the reset function. The function accesses and stores the default message on the mapped server and returns an affirmative String. 
 
 ### (3)	Java package
-The Java package for this project includes a developer created .java pack with the classes MaintenanceMonitorApplication MaintenanceMonitorController and their defined attributes. The JUnit configuration includes all unit tests. 
+The Java package for this project includes a developer created .java pack with the classes MaintenanceMonitorApplication MaintenanceMonitorController and their defined attributes. The JUnit 5 configuration includes all unit tests. 
 
 ### (4)	Contributors and work processes
 The following team members were involved with the project:<br>
