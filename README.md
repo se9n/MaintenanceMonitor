@@ -17,12 +17,15 @@ To run the application, you need a functional JVM environment as well as a RESTf
 
 ### (2)	Functionality 
 The program maps a default message to the host server by the use of a Spring Controller via the GetMapping request and stores it centrally. The message can be accessed by a REST client at any time while the application interface is running. The function returns the default message itself.
+
 ![Alt](/attachments/1getmapper.png)
 
 The user can provide input to store any message of his choosing by accessing the “m” key and overwriting its value. The function stores the new message on the server and returns an affirmative String. A PostMapping request is used to set the message.
+
 ![Alt](/attachments/2postmapping.png)
 
 The message can be restored to default using the reset function. The function accesses and stores the default message on the mapped server and returns an affirmative String. 
+
 ![Alt](/attachments/3reset.png)
 
 ### (3)	Java package
@@ -41,6 +44,6 @@ The team used Github as its VCS. A Basic Kanban board was used to track and reco
 ### (5)	License
 MIT license © 2022	
 
-### (6)	Tests
+### (6)	Testing
 
 The application includes tests for each of the three functions that the software performs as well as a Spring Initializer performance test. Each was configured with the use of JUnit 5. Please consult the dependencies library for the exact version details. The initial test checks if a default message was mapped and stored by comparing the message String value with the value of the stored input. An additional test checks if a manually set message was stored correctly using the same String comparison method. The test generates a random String and inputs it as sample. A final test checks the reset function which restores the mapped message to default. Am automatically generated test checks if the Spring context was loaded successfully.
