@@ -17,7 +17,7 @@ To run the application, you need a functional JVM environment as well as a RESTf
 
 ### (2)	Functionality 
 The program maps a default message to the host server by the use of a Spring Controller via the GetMapping request and stores it centrally. The message can be accessed by a REST client at any time while the application interface is running. The function returns the default message itself.
-![Alt](main/attachments/1getmapper.png)
+![Alt](/attachments/1getmapper.png)
 
 The user can provide input to store any message of his choosing by accessing the “m” key and overwriting its value. The function stores the new message on the server and returns an affirmative String. A PostMapping request is used to set the message.
 The message can be restored to default using the reset function. The function accesses and stores the default message on the mapped server and returns an affirmative String. 
